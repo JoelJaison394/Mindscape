@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&family=Righteous&family=Teko&family=Work+Sans&display=swap');
+
+.App{
+    background-color: #ffffff;
+    opacity: 0.9;
+    background-image:  radial-gradient(#000000 0.5px, transparent 0.5px), radial-gradient(#000000 0.5px, #ffffff 0.5px);
+    background-size: 20px 20px;
+    background-position: 0 0,10px 10px;
+}
+
+.logo{
+    font-size: 55px;
+    font-family: 'Teko', sans-serif;
+    font-weight: 600;
+    letter-spacing: -2px;
+}
+.feature_box{
+    font-size: 30px;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 300;
+}
+.number{
+    font-family: 'Righteous', cursive;
+    font-weight: 600;
+    text-align: center;
+}
+.add_button{
+    font-family: 'Oxygen', cursive;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.content{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    color: #191919;
+}
+.btn{
+    margin-top: 2px;
+    font-size: 25px;
+    font-family: 'Teko', sans-serif;
+    font-weight: 600;
+    padding: 5px ;
+    letter-spacing: 2px;
+    background-color: #191919;
+    color: #fff;    
+}
+
+.extra{
+    font-family: 'Oxygen', cursive;
+    font-weight: bold;
+}
+
+.edit_btn{
+    width: 35px;
+    height: 35px;
+    padding: 4px;
+    margin: 2px;
+}
+
+.edit_btn:hover{
+    border: 2px solid #191919;
+    border-radius: 50px;    
+}
+
+ .loading {
+    /* -webkit-animation: slide-bottom 1s cubic-bezier(0.470, 0.000, 0.745, 0.715) 1s both;
+    animation: slide-bottom 1s cubic-bezier(0.470, 0.000, 0.745, 0.715) 1s both; */
+    background: #000;
+  }
+
+  @-webkit-keyframes slide-bottom {
+    0% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+    100% {
+      -webkit-transform: translateY(100px);
+              transform: translateY(100px);
+    }
+  }
